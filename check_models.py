@@ -7,7 +7,7 @@ import os
 # On macOS/Linux: export GOOGLE_API_KEY=YOUR_API_KEY
 
 # OR, just paste your key directly here for a quick test:
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDSwjS02Ta38ZLlNpnvGOBo_fCVnJ3oQxk"
+os.environ["GOOGLE_API_KEY"] = "API_KEY"
 
 try:
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
